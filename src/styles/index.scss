@@ -1,0 +1,2207 @@
+$primary: #7CE7AC;
+$borderColor: #E8ECEF;
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(../fonts/Lato/Lato-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: Lato;
+  background-color: #F7F7F7;
+  position: relative;
+  z-index: 0;
+  // overflow-y: hidden;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.MuiButton-label {
+  font-family: Lato;
+}
+
+.MuiPickersToolbarText-toolbarBtnSelected {
+  color: white !important;
+}
+
+.MuiFab-primary {
+  color: white !important;
+}
+
+.MuiPickersToolbarText-toolbarTxt {
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.MuiTypography-body1 {
+  font-family: Lato !important;
+}
+
+.MuiButton-containedPrimary {
+  color: white !important;
+  text-transform: none !important;
+}
+
+.MuiButton-root {
+  text-transform: none !important;
+}
+
+.MuiInputBase-input {
+  font-family: Lato !important;
+}
+
+.Mui-disabled {
+  color: #778CA2 !important;
+}
+
+.MuiAccordion-root.Mui-expanded {
+  margin: 0 !important;
+}
+
+.MuiAccordionDetails-root {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.non-border {
+  border-radius: 0 !important;
+}
+
+.MuiButton-contained {
+  box-shadow: none !important;
+}
+
+.MuiFab-root {
+  box-shadow: none !important;
+}
+
+.MuiAccordion-rounded:last-child {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+  border-bottom: 1px solid #E8ECEF;
+}
+
+.MuiAccordionSummary-content {
+  flex-direction: column !important;
+}
+
+.MuiAccordionSummary-root.Mui-expanded {
+  min-height: 55px !important;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked {
+  color: white !important;
+}
+
+.MuiSwitch-track {
+  background-color: $primary !important;
+}
+
+.MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+  opacity: 1 !important;
+}
+
+.customAreaTextMine {
+  .MuiTypography-body1 {
+    font-size: 12px !important;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.overflowYAuto {
+  overflow-y: auto;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-25 {
+  flex-basis: 25%;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.top-5 {
+  top: 5px;
+}
+
+.bottom-10 {
+  bottom: 10px;
+}
+
+.bottom-70 {
+  bottom: 70px;
+}
+
+.left-10 {
+  left: 10px;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+// padding top classes
+.pt-0 {
+  padding-top: 0;
+}
+
+.pt-5 {
+  padding-top: 5px;
+}
+
+.pt-3 {
+  padding-top: 3px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-25 {
+  padding-top: 25px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-35 {
+  padding-top: 35px;
+}
+
+.pt-36 {
+  padding-top: 36px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-42 {
+  padding-top: 42px;
+}
+
+.pt-45 {
+  padding-top: 45px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pt-55 {
+  padding-top: 55px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pt-65 {
+  padding-top: 65px;
+}
+
+.pt-85 {
+  padding-top: 85px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pt-187 {
+  padding-top: 187px;
+}
+
+.pt-105 {
+  padding-top: 105px;
+}
+
+//padding bottom classes
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pb-5 {
+  padding-bottom: 5px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-14 {
+  padding-bottom: 14px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-2 {
+  padding-bottom: 2px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-35 {
+  padding-bottom: 35px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pb-45 {
+  padding-bottom: 45px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.pb-55 {
+  padding-bottom: 55px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+
+//padding left classes
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+.pl-8 {
+  padding-left: 8px;
+}
+.pl-12 {
+  padding-left: 12px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pl-25 {
+  padding-left: 25px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pl-35 {
+  padding-left: 35px;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+.pl-45 {
+  padding-left: 45px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pl-55 {
+  padding-left: 55px;
+}
+
+.pl-60 {
+  padding-left: 60px;
+}
+
+// padding right classes
+.pr-0 {
+  padding-right: 0;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pr-16 {
+  padding-right: 16px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pr-2 {
+  padding-right: 2px;
+}
+
+.pr-25 {
+  padding-right: 25px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pr-35 {
+  padding-right: 35px;
+}
+
+.pr-40 {
+  padding-right: 40px;
+}
+
+.pr-45 {
+  padding-right: 45px;
+}
+
+.pr-50 {
+  padding-right: 50px;
+}
+
+.pr-55 {
+  padding-right: 55px;
+}
+
+.pr-60 {
+  padding-right: 60px;
+}
+
+//padding classes
+.p-0 {
+  padding: 0;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.p-35 {
+  padding: 35px;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+.p-45 {
+  padding: 45px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.p-55 {
+  padding: 55px;
+}
+
+.p-60 {
+  padding: 60px;
+}
+
+.m-auto-0 {
+  margin: auto 0;
+}
+
+// margin top classes
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-45 {
+  margin-top: 45px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-55 {
+  margin-top: 55px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+//padding bottom classes
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-45 {
+  margin-bottom: 45px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-55 {
+  margin-bottom: 55px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+//padding left classes
+.ml-0 {
+  margin-left: 0;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.ml-35 {
+  margin-left: 35px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-45 {
+  margin-left: 45px;
+}
+
+.ml-50 {
+  padding-left: 50px;
+}
+
+.ml-55 {
+  margin-left: 55px;
+}
+
+.ml-60 {
+  margin-left: 60px;
+}
+
+// padding right classes
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-35 {
+  margin-right: 35px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.mr-45 {
+  margin-right: 45px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+.mr-55 {
+  margin-right: 55px;
+}
+
+.mr-60 {
+  margin-right: 60px;
+}
+
+//padding classes
+.m-0 {
+  margin: 0;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.m-15 {
+  margin: 15px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.m-25 {
+  margin: 25px;
+}
+
+.m-30 {
+  margin: 30px;
+}
+
+.m-35 {
+  margin: 35px;
+}
+
+.m-40 {
+  margin: 40px;
+}
+
+.m-45 {
+  margin: 45px;
+}
+
+.margin {
+  padding: 50px;
+}
+
+.margin {
+  padding: 55px;
+}
+
+.margin {
+  padding: 60px;
+}
+
+//font size classes
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-19 {
+  font-size: 19px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-8 {
+  font-size: 8px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.f-italic {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.w-20 {
+  width: 20px;
+}
+
+.max-140 {
+  width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wrong {
+  animation: shake 1s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.color-black {
+  color: black;
+}
+
+.color-2d {
+  color: #2D2D2D;
+}
+
+.color-CE {
+  color: #CECECE;
+}
+
+.color-FF {
+  color: #FFA080;
+}
+
+.color-91 {
+  color: #919191;
+}
+
+.color-light-black {
+  color: #252631;
+}
+
+.color-primary {
+  color: #7CE7AC;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-light {
+  color: #778CA2;
+}
+
+.color-light-blue {
+  color: #8181A5;
+}
+
+.color-border {
+  color: #E8ECEF;
+}
+
+.borderRadius {
+  border-radius: 4px;
+}
+
+// dropdown category
+.categoryDropdown {
+  border: 0;
+
+  &:hover {
+    box-shadow: none;
+  }
+
+  height: 50px;
+  background-color: $primary;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  border-radius: 0;
+
+  .Dropdown-arrow-wrapper {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+  }
+}
+
+.menuArea {
+  width: calc(100vw - 267px);
+  left: -61px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  border: 1px solid #E8ECEF;
+  box-shadow: none;
+  z-index: 1000;
+
+  .Dropdown-option {
+    border-right: 1px solid #E8ECEF;
+    border-bottom: 1px solid #E8ECEF;
+    padding: 12px 9px;
+    font-size: 14px;
+  }
+}
+
+.Dropdown-option.is-selected {
+  background-color: #7CE7AC !important;
+  color: white;
+}
+
+.singleProduct {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .priceArea {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .stockArea {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .outStockArea {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  @media screen and (max-height: 730px) {
+    width: 100px;
+    height: 100px;
+    .fs-16 {
+      font-size: 12px;
+    }
+    .fs-10 {
+      font-size: 9px;
+    }
+  }
+  @media screen and (max-height: 650px) {
+    width: 80px;
+    height: 80px;
+    .fs-16 {
+      font-size: 10px;
+    }
+    .fs-10 {
+      font-size: 7px;
+    }
+  }
+  @media screen and (max-width: 1012px) {
+    width: 100px;
+    height: 100px;
+    .fs-16 {
+      font-size: 12px;
+    }
+    .fs-10 {
+      font-size: 9px;
+    }
+  }
+  @media screen and (max-width: 908px) {
+    width: 80px;
+    height: 80px;
+    .fs-16 {
+      font-size: 10px;
+    }
+    .fs-10 {
+      font-size: 7px;
+    }
+  }
+  @media screen and (min-width: 1150px) and (min-height: 850px) {
+    width: 150px;
+    height: 150px;
+    .fs-16 {
+      font-size: 17px;
+    }
+    .fs-10 {
+      font-size: 11px;
+    }
+  }
+  @media screen and (min-width: 1280px) and (min-height: 950px) {
+    width: 170px;
+    height: 170px;
+    .fs-16 {
+      font-size: 18px;
+    }
+    .fs-10 {
+      font-size: 12px;
+    }
+  }
+  @media screen and (min-width: 1400px) and (min-height: 1060px) {
+    width: 200px;
+    height: 200px;
+    .fs-16 {
+      font-size: 19px;
+    }
+    .fs-10 {
+      font-size: 13px;
+    }
+  }
+}
+
+.multiProduct {
+  width: 140px;
+  height: 140px;
+  border-radius: 5px;
+  background: white;
+  position: relative;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+
+  .layer1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 140px;
+    height: 134px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .layer2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 120px;
+    height: 108px;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .stockArea {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  @media screen and (max-height: 730px) {
+    width: 120px;
+    height: 120px;
+    .layer1 {
+      width: 120px;
+      height: 114px;
+    }
+    .layer2 {
+      width: 100px;
+      height: 88px;
+
+      .fs-16 {
+        font-size: 12px;
+      }
+
+      .fs-10 {
+        font-size: 9px;
+      }
+    }
+  }
+  @media screen and (max-height: 650px) {
+    width: 100px;
+    height: 100px;
+    .layer1 {
+      width: 100px;
+      height: 94px;
+    }
+    .layer2 {
+      width: 80px;
+      height: 68px;
+
+      .fs-16 {
+        font-size: 10px;
+      }
+
+      .fs-10 {
+        font-size: 7px;
+      }
+    }
+  }
+  @media screen and (max-width: 1012px) {
+    width: 120px;
+    height: 120px;
+    .layer1 {
+      width: 120px;
+      height: 114px;
+    }
+    .layer2 {
+      width: 100px;
+      height: 88px;
+
+      .fs-16 {
+        font-size: 12px;
+      }
+
+      .fs-10 {
+        font-size: 9px;
+      }
+    }
+  }
+  @media screen and (max-width: 908px) {
+    width: 100px;
+    height: 100px;
+    .layer1 {
+      width: 100px;
+      height: 94px;
+    }
+    .layer2 {
+      width: 80px;
+      height: 68px;
+
+      .fs-16 {
+        font-size: 10px;
+      }
+
+      .fs-10 {
+        font-size: 7px;
+      }
+    }
+  }
+  @media screen and (min-width: 1150px) and (min-height: 850px) {
+    width: 170px;
+    height: 170px;
+    .layer1 {
+      width: 170px;
+      height: 164px;
+    }
+    .layer2 {
+      width: 150px;
+      height: 138px;
+
+      .fs-16 {
+        font-size: 17px;
+      }
+
+      .fs-10 {
+        font-size: 11px;
+      }
+    }
+  }
+  @media screen and (min-width: 1280px) and (min-height: 950px) {
+    width: 190px;
+    height: 190px;
+    .layer1 {
+      width: 190px;
+      height: 184px;
+    }
+    .layer2 {
+      width: 170px;
+      height: 158px;
+
+      .fs-16 {
+        font-size: 18px;
+      }
+
+      .fs-10 {
+        font-size: 12px;
+      }
+    }
+  }
+  @media screen and (min-width: 1400px) and (min-height: 1060px) {
+    width: 220px;
+    height: 220px;
+    .layer1 {
+      width: 220px;
+      height: 214px;
+    }
+    .layer2 {
+      width: 200px;
+      height: 188px;
+
+      .fs-16 {
+        font-size: 19px;
+      }
+
+      .fs-10 {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.productsContainer {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 25% 25% 25% 25%;
+  height: calc(100vh - 160px);
+  position: relative;
+  padding-top: 10px;
+  z-index: 0;
+  justify-items: center;
+  align-items: center;
+}
+
+.sProduct {
+  cursor: pointer;
+}
+
+.takeAwayHeader {
+  height: 50px;
+  border-bottom: 1px solid #E8ECEF;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trashIcon {
+  opacity: 0.2;
+  color: #090909;
+}
+
+.customerHeader {
+  height: 40px;
+  border-bottom: 1px solid #E8ECEF;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  width: 248px
+}
+
+.checkout {
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  border-top: 1px solid #E8ECEF;
+}
+
+.typeSection {
+  position: absolute;
+  bottom: 81px;
+  height: 54px;
+  width: 100%;
+  border-top: 1px solid #E8ECEF;
+}
+
+.discountSection {
+  position: absolute;
+  bottom: 136px;
+  height: 70px;
+  width: 100%;
+  border-top: 1px solid #E8ECEF
+}
+
+.mainPopover {
+  .mainPopOneRow {
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .firstSection {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      p {
+        color: #252631;
+      }
+    }
+
+    .badgeArea {
+      align-items: center;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #7CE7AC;
+      color: white;
+      display: flex;
+      justify-content: center;
+
+      p {
+        color: white;
+      }
+    }
+
+    &.disabled {
+      p {
+        color: #CECECE !important;
+      }
+    }
+
+    &.bt {
+      border-top: 1px solid #E8ECEF;
+    }
+  }
+}
+
+
+.receiptPopover {
+  width: 160px;
+  height: 117px;
+  background-color: transparent;
+
+  .mainSection {
+    border-radius: 5px;
+    height: 105px;
+    width: 100%;
+    background-color: #414141;
+  }
+
+  .triangle {
+    margin-top: -1px;
+    display: flex;
+    justify-content: center;
+    height: 12px;
+  }
+}
+
+.productArea {
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-left: 0px;
+
+  .rectangleArea {
+    min-width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nameArea {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100px;
+    height: 100%;
+  }
+
+  .nameAreaCustomer {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 100px;
+    //align-items: center;
+  }
+
+  .checkPrice {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    padding-right: 5px;
+  }
+}
+
+.right-0 {
+  right: 0
+}
+
+.left-side {
+  //transition: transform .5s linear;
+  transform: translate(-50px);
+}
+
+.customer-left-side {
+  transform: translate(-40px);
+}
+
+.right-side {
+  transition: transform 0ms linear;
+  transform: translate(0);
+}
+
+.customer-right-side {
+  transition: transform 0ms linear;
+  transform: translate(0);
+}
+
+.transitionArea {
+  display: flex;
+  flex-direction: row;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.quantityArea {
+  width: 30px;
+  margin-left: 1px;
+  height: 50px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backPrimary {
+  background: #7CE7AC;
+  color: white;
+}
+
+.backDisabled {
+  color: rgba(0, 0, 0, 0.26);
+  background: rgba(0, 0, 0, 0.12)
+}
+
+.userArea {
+  width: 175px;
+  min-width: 175px;
+}
+
+.text-area {
+  display: flex;
+  align-items: center;
+}
+
+.height-30 {
+  height: 30px;
+}
+
+.height-300 {
+  height: 300px;
+}
+
+.height-28 {
+  height: 28px;
+}
+
+.height-20 {
+  height: 20px;
+}
+
+.height-200 {
+  height: 200px;
+}
+
+.height-280 {
+  height: 280px;
+}
+
+.height-17 {
+  height: 17px;
+}
+
+.height-34 {
+  height: 34px;
+}
+
+.height-7 {
+  height: 8px;
+}
+
+.height-12 {
+  height: 12px;
+  min-height: 12px;
+}
+
+.height-120 {
+  height: 120px;
+  min-height: 120px;
+}
+
+.height-180 {
+  height: 180px;
+  min-height: 180px;
+}
+
+.height-140 {
+  height: 140px;
+  min-height: 140px;
+}
+
+.height-150 {
+  height: 150px;
+  min-height: 150px;
+}
+
+.height-18 {
+  height: 18px;
+}
+
+.height-107 {
+  height: 107px;
+}
+
+.height-60 {
+  height: 60px;
+  min-height: 60px;
+}
+
+.height-70 {
+  height: 70px;
+  min-height: 70px;
+}
+
+.height-80 {
+  height: 80px;
+  min-height: 80px;
+}
+
+.height-100 {
+  height: 100px;
+  min-height: 100px;
+}
+
+.width-10 {
+  width: 10px;
+}
+
+.width-100 {
+  width: 100px;
+}
+
+.width-150 {
+  width: 150px;
+}
+
+.width-16 {
+  width: 16px;
+}
+
+.width-42 {
+  width: 42px;
+}
+
+.width-60 {
+  width: 60px;
+}
+
+.width-80 {
+  width: 75px;
+}
+
+.height-10 {
+  height: 10px;
+}
+
+.height-20 {
+  height: 20px;
+}
+
+.height-50 {
+  height: 50px;
+  min-height: 50px;
+}
+
+.height-55 {
+  height: 55px;
+  min-height: 55px;
+}
+
+.height-65 {
+  height: 65px;
+  min-height: 65px;
+}
+
+.height-35 {
+  height: 35px;
+  min-height: 35px;
+}
+
+.height-360 {
+  height: 360px;
+  min-height: 360px;
+}
+
+.height-340 {
+  height: 340px;
+  min-height: 340px;
+}
+
+.height-380 {
+  height: 380px;
+  min-height: 380px;
+}
+
+.height-40 {
+  height: 40px;
+  min-height: 40px;
+}
+
+.width-40 {
+  width: 40px;
+  min-width: 40px;
+}
+
+.height-45 {
+  height: 45px;
+  min-height: 45px;
+}
+
+.height-400 {
+  height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.height-440 {
+  height: 440px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.height-530 {
+  height: 530px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.height-450 {
+  height: 450px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.height-430 {
+  height: 430px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.width-480 {
+  width: 480px;
+}
+
+.height-480 {
+  height: 480px;
+}
+
+.width-120 {
+  width: 120px;
+  min-width: 120px;
+}
+
+.width-200 {
+  width: 200px;
+  min-width: 200px;
+}
+
+.width-20 {
+  width: 20px;
+  min-width: 20px;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.width60vw {
+  width: calc(66vw + 68px);
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.variantArea {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  .oneVariant {
+    margin: 5px;
+    cursor: pointer;
+    height: 38px;
+    border-radius: 4px;
+    background: white;
+    color: black;
+    border: 1px solid $borderColor;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    &.active {
+      background: #7CE7AC;
+      color: white;
+      border: 1px solid #7CE7AC;
+    }
+  }
+}
+
+.ingredientArea {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  .oneIngredient {
+    margin: 5px;
+    cursor: pointer;
+    height: 38px;
+    border-radius: 4px;
+    background: white;
+    color: black;
+    border: 1px solid $borderColor;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &.active {
+      background: #FFFFFF;
+      border: 1px solid #919191;
+    }
+    &.disable {
+      background: #edeff1;
+      border: none;
+      // color: #ababab;
+      opacity: 0.6;
+    }
+  }
+}
+
+.borderBottomLight {
+  border-bottom: 1px solid #E8ECEF;
+}
+
+.borderBottomBlack {
+  border-bottom: 1px solid #252631;
+}
+
+.borderTopLight {
+  border-top: 1px solid #E8ECEF;
+}
+
+.borderTopBlack {
+  border-top: 1px solid #252631;
+}
+
+.circleArea {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.circleAreaProducts {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border: 1px solid #E8ECEF;
+}
+
+.circleAreaCustomer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.backcolor-pink {
+  background: rgba(255, 128, 139, 0.3);
+}
+
+.backcolor-border {
+  background: $borderColor;
+}
+
+.background-F0 {
+  background-color: #f5f5f5;
+}
+
+.background-DF {
+  background-color: #DFE8E3;
+}
+
+.color-pink {
+  color: #FF808B;
+}
+
+.color-41 {
+  color: #414141;
+}
+
+.normal {
+  border: 1px solid #E8ECEF;
+}
+.background-F2 {
+  background: #F2FDF7
+}
+.backgroundWhite {
+  background: white;
+}
+.backgroundGray {
+  background: #f5f5f5;
+}
+
+.boxShadow {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+
+.errorText {
+  color: red;
+}
+
+.customInput {
+  display: block;
+  height: 30px;
+  width: 40px;
+  max-width: 50px;
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .MuiInputBase-root {
+    height: 100% !important;
+    border: 1px solid $borderColor !important;
+    border-radius: 4px !important;
+  }
+
+  .MuiFilledInput-underline {
+    border: 0px !important;
+  }
+
+  .MuiFilledInput-underline:after {
+    border: 0px !important;
+  }
+
+  .MuiFilledInput-underline:before {
+    border: 0px !important;
+  }
+
+  .MuiFilledInput-root {
+    background-color: white !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+  }
+
+  .MuiFilledInput-input {
+    text-align: center !important;
+    padding: 0 !important;
+  }
+}
+
+.bottomSection {
+  position: absolute;
+  bottom: 20px;
+  height: 141px;
+}
+
+.list-body {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 520px;
+  height: 580px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* This fires as soon as the element enters the dorm */
+//.list-transition-enter,
+//.list-transition-appear {
+//  /*We give the list the initial dimension of the list button*/
+//  //top: 0;
+//  //max-width: 0px;
+//  //height: 580px;
+//  //color: transparent;
+//  left: 0;
+//  transition: all 400ms;
+//}
+.list-transition-enter-done {
+  left: 0;
+}
+
+/* This is where we can add the transition*/
+.list-transition-enter-active,
+.list-transition-appear-active {
+  //top: 0px;
+  //max-width: 520px;
+  //height: 580px;
+  //transition: all 400ms;
+  left: 0;
+  transition: all 400ms;
+}
+
+/* This fires as soon as the this.state.showList is false */
+.list-transition-exit {
+  //top: 0px;
+  //max-width: 520px;
+  //height: 580px;
+  left: 0;
+}
+
+/* fires as element leaves the DOM*/
+.list-transition-exit-active {
+  //top: 0;
+  //max-width: 0px;
+  //height: 580px;
+  //color: transparent;
+  //transition: all 400ms;
+  left: -100%;
+  transition: all 400ms;
+}
+
+
+.down-body {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 520px;
+  height: 580px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* This fires as soon as the element enters the dorm */
+//.list-transition-enter,
+//.list-transition-appear {
+//  /*We give the list the initial dimension of the list button*/
+//  //top: 0;
+//  //max-width: 0px;
+//  //height: 580px;
+//  //color: transparent;
+//  left: 0;
+//  transition: all 400ms;
+//}
+.down-transition-enter-done {
+  bottom: 0;
+}
+
+/* This is where we can add the transition*/
+.down-transition-enter-active,
+.down-transition-appear-active {
+  //top: 0px;
+  //max-width: 520px;
+  //height: 580px;
+  //transition: all 400ms;
+  bottom: 0;
+  transition: all 400ms;
+}
+
+/* This fires as soon as the this.state.showList is false */
+.down-transition-exit {
+  //top: 0px;
+  //max-width: 520px;
+  //height: 580px;
+  bottom: 0;
+}
+
+/* fires as element leaves the DOM*/
+.down-transition-exit-active {
+  //top: 0;
+  //max-width: 0px;
+  //height: 580px;
+  //color: transparent;
+  //transition: all 400ms;
+  bottom: -100%;
+  transition: all 400ms;
+}
+
+
+.right-body {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 520px;
+  height: 580px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* This fires as soon as the element enters the dorm */
+//.list-transition-enter,
+//.list-transition-appear {
+//  /*We give the list the initial dimension of the list button*/
+//  //top: 0;
+//  //max-width: 0px;
+//  //height: 580px;
+//  //color: transparent;
+//  left: 0;
+//  transition: all 400ms;
+//}
+.right-transition-enter-done {
+  right: 0;
+}
+
+/* This is where we can add the transition*/
+.right-transition-enter-active,
+.right-transition-appear-active {
+  //top: 0px;
+  //max-width: 520px;
+  //height: 580px;
+  //transition: all 400ms;
+  right: 0;
+  transition: all 400ms;
+}
+
+/* This fires as soon as the this.state.showList is false */
+.right-transition-exit {
+  //top: 0px;
+  //max-width: 520px;
+  //height: 580px;
+  right: 0;
+}
+
+/* fires as element leaves the DOM*/
+.right-transition-exit-active {
+  //top: 0;
+  //max-width: 0px;
+  //height: 580px;
+  //color: transparent;
+  //transition: all 400ms;
+  right: -100%;
+  transition: all 400ms;
+}
+
+
+.checkoutBody {
+  position: absolute;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 100%;
+}
+
+.checkOutSlideSection-appear-active,
+.checkOutSlideSection-enter-active {
+  left: 0;
+  transition: all 400ms;
+}
+
+.checkOutSlideSection-enter-done {
+  left: 0;
+}
+
+.checkOutSlideSection-exit {
+  left: 0
+}
+
+.checkOutSlideSection-exit-active {
+  left: 100%;
+  transition: all 400ms;
+}
+
+//ripple effect
+.ripple {
+  background-position: center;
+  transition: background 0.5s;
+}
+
+.ripple:hover {
+  background: rgb(255, 255, 255) radial-gradient(circle, transparent 1%, rgb(255, 255, 255) 1%) center/15000%;
+}
+
+.ripple:active {
+  background-color: rgba(72, 255, 72, 0.1);
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                   supported by Chrome, Edge, Opera and Firefox */
+}
+
+.customHorizontal {
+  height: 0;
+  border-left: 0;
+  margin: 0;
+  color: $borderColor;
+}
+.container {
+  overflow-y: auto;
+}
+.backgroundRed {
+  background-color: red;
+}

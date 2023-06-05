@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ico</title>
+    <g id="POS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="LineAwesome" font-size="22" font-weight="400">
+        <g id="POS-/-Sidenav" transform="translate(-102.000000, -412.000000)" fill="#778CA2">
+            <g id="Dashboard" transform="translate(80.000000, 400.000000)">
+                <text id="ico">
+                    <tspan x="20" y="28.375"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

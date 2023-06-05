@@ -1,0 +1,89 @@
+{
+  "name": "pos_project",
+  "version": "0.1.0",
+  "private": true,
+  "description": "pos project",
+  "author": "Zernaev Timur",
+  "main": "public/electron.js",
+  "appId": "<com.pos_project>",
+  "dependencies": {
+    "@babel/code-frame": "^7.12.13",
+    "@babel/compat-data": "^7.13.8",
+    "@babel/core": "^7.13.8",
+    "@date-io/date-fns": "1.x",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.2.10",
+    "@svgr/cli": "^5.4.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@unicef/material-ui-currency-textfield": "^0.8.6",
+    "clsx": "^1.1.1",
+    "cross-env": "^7.0.3",
+    "date-fns": "^2.16.1",
+    "electron-is-dev": "^2.0.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.13.1",
+    "react-dropdown": "^1.9.0",
+    "react-horizontal-scroll-container": "^1.0.1",
+    "react-horizontal-scrolling-menu": "^0.7.8",
+    "react-loader-spinner": "^3.1.14",
+    "react-numpad": "^5.1.1",
+    "react-page-scroller": "^2.0.7-beta",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-scroll": "^1.8.1",
+    "react-scroll-horizontal": "^1.6.6",
+    "react-select": "^3.1.0",
+    "react-sticky": "^6.0.3",
+    "react-swipeable": "^5.5.1",
+    "react-swipeable-views": "^0.13.9",
+    "react-text-mask": "^5.4.3",
+    "react-transition-group": "^4.4.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "swiper": "^6.3.2",
+    "velocity-react": "^1.4.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "react-test": "react-scripts test --env=jsdom",
+    "react-eject": "react-scripts eject",
+    "electron-build": "electron-builder",
+    "release": "yarn react-build && electron-builder --publish=always",
+    "build": "yarn react-build && yarn electron-build",
+    "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "electron": "^12.0.0",
+    "electron-builder": "^22.10.5",
+    "wait-on": "^5.2.1"
+  }
+}
